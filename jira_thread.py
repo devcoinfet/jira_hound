@@ -251,7 +251,5 @@ if __name__ == "__main__":
 print("Generating Payloads")
 print(vuln_urls)
 
-for url in vuln_urls:
-    port_probes = ssrf_poc_handler(vuln_urls)
-    print(port_probes)
+
 
